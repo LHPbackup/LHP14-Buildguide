@@ -51,7 +51,7 @@ LHP14はQMK firmwareという、キーボード用のオープンソースファ
 <br>
 ### ３．テストファームの書き込み
 
-・[LHP14ファームウェア置き場](https://github.com/NeoTrinity-FF14/LHP14-firmware)からLHP14のファームウェアをダウンロードします。  
+・[LHP14ファームウェア置き場](https://github.com/LHPbackup/LHP14-firmware)からLHP14のファームウェアをダウンロードします。  
 　Codeと書いた緑のボタンを押し、Zipファイルをダウンロード、解凍します。
 
 ・C:\Users\ユーザー名\qmk_firmware\keyboards\に、LHP14フォルダをフォルダごとコピーしてください。
