@@ -70,10 +70,10 @@
 
 ## キット以外に必要な部品
 
-・Pro Micro （コンスルー付き）
-※最近発売されている厚みのあるType-C ProMicroをお使いの際は高さ3.5mmの12Pinコンスル―をご使用ください。 
-(その際、OLEDのソケット差し込み深さは少し浅くなる場合があります。) 
-MicroUSBタイプ、Elite-C、薄型のType-C ProMicroは2.5mmの12Pinコンスル―でOKです。 
+・Pro Micro （コンスルー付き） 
+※最近発売されている厚みのあるType-C ProMicroをお使いの際は高さ3.5mmの12Pinコンスル―をご使用ください。  
+(その際、OLEDのソケット差し込み深さは少し浅くなる場合があります。)  
+MicroUSBタイプ、Elite-C、薄型のType-C ProMicroは2.5mmの12Pinコンスル―でOKです。  
 
 ・OLEDモジュール （ピンソケット付き）
 
