@@ -63,7 +63,7 @@ MicroUSBタイプ、Elite-C、薄型のType-C ProMicroは2.5mmの12Pinコンス�
 ただし、V2用のキーキャップは縦ピッチ18mm以下の狭ピッチキーキャップをお使いください。  
 通常サイズのキーキャップは前後のキーと干渉します。
 
-・Micro USB ケーブル
+・USB ケーブル
 
 ・NintendoSwitchジョイコン修理用のアナログスティック　1個
 
