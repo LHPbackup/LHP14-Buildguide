@@ -70,7 +70,7 @@ MicroUSBタイプ、Elite-C、薄型のType-C ProMicroは2.5mmの12Pinコンス�
 
 ・ジョイコン用サムパッドカバー
 
-・Micro USB ケーブル
+・USB ケーブル
 
 #### オプション
 
