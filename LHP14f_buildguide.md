@@ -1,6 +1,6 @@
 # LHP14 rev 1.0f　ビルドガイド
 
-![](./images/LHP14_f/LHP14_3.jpg)  
+![](./images/LHP14_f/LHP14f.png)  
 <br>
 <br>
 <br>
