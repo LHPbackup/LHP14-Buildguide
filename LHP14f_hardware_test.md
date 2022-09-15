@@ -10,9 +10,15 @@ LHP14fはQMK firmwareという、キーボード用のオープンソースフ�
 
 ・[公式サイト](https://msys.qmk.fm/)からLatest versionのQMK_MSYS.exeをダウンロードします。
 
+<br>
+
 ![](./images/LHP14_f/alert01.png)
+
 ![](./images/LHP14_f/alert02.png)
+
 ![](./images/LHP14_f/alert03.png)
+
+<br>
 ダウンロード時、警告のメッセージが出ますが、赤丸部分をクリックしてダウンロードします。
 <br>
 <br>
@@ -62,7 +68,9 @@ LHP14fはQMK firmwareという、キーボード用のオープンソースフ�
 <br>
 
 ・lhp14fフォルダ内のlhp14f_test.hexをQMK Toolboxにドラッグ＆ドロップします。
-![](./images/LHP14_f/QMK_toolbox02.png)
+
+
+<br>![](./images/LHP14_f/QMK_toolbox02.png)
 <br>
 <br>
 
