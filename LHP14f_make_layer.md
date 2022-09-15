@@ -111,9 +111,11 @@ WはFF14のキー設定は「前を向いて前進」です。QMKでは`KC_W`に
 <br>
 
 ### ・侍のキーマップを作る
-<br>
+
 ![](./images/LHP14_f/HUD_SAM.png)
-<br>
+
+
+
 上記が私の侍のHUDレイアウトです。主にスロット２，３，４で操作しております。
 <br>
 <br>
@@ -124,6 +126,7 @@ LHP14に下記の割り当てで侍のキーマップを作ってみます。
 ![](./images/LHP14_f/KEY_IMAGE_SAM.png)
 <br>
 <br>
+
 ```
 [SAM] = LAYOUT( \
  KC_Z,        KC_F2,     KC_W,        LALT(KC_1),LALT(KC_4),   KC_PLUS,    KC_V,      \
