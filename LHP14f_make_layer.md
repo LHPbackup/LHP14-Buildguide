@@ -50,9 +50,14 @@ switch (get_highest_layer(layer_state)) {以下の、case DRK～case RGBまで�
 上記が私の学者のHUDです。
 
 ホットバー2はキーボードの1234567890-=までの12キー（英語キーボードです）がキーバインドされており、ホットバー3はシフトと1～=の同時押し、ホットバー4はALTと1～=の同時押し、ホットバー5はCTRLとALTと1～=の同時押しがバインドされています。
-
+<br>
+<br>
+<br>
 LHP14に下記の割り当てで学者のキーマップを作ってみます。
+<br>
 ![](./images/LHP14_f/KEY_IMAGE_SCH.png)
+<br>
+<br>
 
 まずは1列目。
 
@@ -109,10 +114,15 @@ WはFF14のキー設定は「前を向いて前進」です。QMKでは`KC_W`に
 
 ![](./images/LHP14_f/HUD_SAM.png)
 上記が私の侍のHUDレイアウトです。主にスロット２，３，４で操作しております。
+<br>
+<br>
+<br>
 
 LHP14に下記の割り当てで侍のキーマップを作ってみます。
+<br>
 ![](./images/LHP14_f/KEY_IMAGE_SAM.png)
-
+<br>
+<br>
 ```
 [SAM] = LAYOUT( \
  KC_Z,        KC_F2,     KC_W,        LALT(KC_1),LALT(KC_4),   KC_PLUS,    KC_V,      \
