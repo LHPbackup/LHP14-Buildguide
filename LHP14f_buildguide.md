@@ -186,7 +186,7 @@ SK6812MINI-Eを使う方が難しいですが、見栄えはこちらが優れ�
 
 ### ２．ProMicroの実装
 
-![](./images/Promicro.jpg)
+![](./images/LHP14_f/promicro.jpg)
 
 ProMicroはピンが同梱している場合も多いですが、本キットはコンスルー使用を推奨します。
 コンスルーとは基板とProMicroを脱着可能にするスプリングピンです。
