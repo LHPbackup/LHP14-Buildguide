@@ -186,7 +186,7 @@ SK6812MINI-Eを使う方が難しいですが、見栄えはこちらが優れ�
 
 ### ２．ProMicroの実装
 
-![](./images/LHP14_f/promicro.jpg)
+<br>
 
 ProMicroはピンが同梱している場合も多いですが、本キットはコンスルー使用を推奨します。
 コンスルーとは基板とProMicroを脱着可能にするスプリングピンです。
@@ -221,6 +221,87 @@ LHP14fでは基板側で対応しているため、コンスル―高さ2~3.5mm�
 コンスルーにProMicroを差し込みます。ProMicroは部品が付いていない方が表になるようセットします。 
 新しいType-C版ProMicroはコンスル―に対応しており、ハンダ付け不要です。
 従来のProMicro使用時など穴が緩い時はProMicroとコンスル―をハンダ付けして下さい。
+
+<br>
+<br>
+<br>
+
+### TIPS:  ピンソケットでProMicroを着脱可能にする
+
+2022年9月現在、コンスルーが非常に手に入れにくい状況です。
+そこで、手に入れやすい12ピン・高さ3.5mmのピンソケットと、ProMicroに付属してくるピンヘッダを使い、ProMicroを着脱可能にしてみます。
+（ピンソケットは[こちら](https://shop.yushakobo.jp/collections/all-keyboard-parts/products/3696)等で入手できます。）
+
+<br>
+<br>
+
+![](./images/LHP14_f/socket1.jpg)
+
+12ピン・高さ3.5mmのピンソケット。（写真は廣杉計器 FSS-41035-12)
+
+<br>
+<br>
+<br>
+
+![](./images/LHP14_f/socket2.jpg)
+
+ProMicroに付属しているピンヘッダをカットして使います。
+
+<br>
+<br>
+<br>
+
+![](./images/LHP14_f/socket3.jpg)
+
+ソケットを基板にハンダ付けします。
+
+この時、端子を一度にハンダ付けせず、まずは端子1か所をハンダ付けしたら、ソケットを上から指で押さえつつ、基板裏のハンダ付けした個所を溶かします。
+
+（部品浮きがあると「カチッ」と音がして直ります）
+
+位置に問題なければ、残りをハンダ付けします。
+
+<br>
+<br>
+<br>
+
+![](./images/LHP14_f/socket4.jpg)
+
+ProMicro付属ピンヘッダの足をニッパーで6mmほどの長さにカットします。
+
+<br>
+<br>
+<br>
+
+![](./images/LHP14_f/socket5.jpg)
+
+カット側が上に出るように、ピンソケットに差し込んでいきます。
+
+<br>
+<br>
+<br>
+
+![](./images/LHP14_f/socket6.jpg)
+
+ProMicroをセットします。（ProMicroの表裏、USB端子の向きに注意！！）
+
+<br>
+<br>
+<br>
+
+![](./images/LHP14_f/socket7.jpg)
+
+ピンとProMicroをハンダ付けします。
+
+<br>
+<br>
+<br>
+
+![](./images/LHP14_f/socket8.jpg)
+
+ProMicroを一度引き抜き、着脱できるかテストします。
+
+OKでしたら、ProMicroをソケットに差し込みます。
 
 <br>
 <br>
@@ -382,7 +463,8 @@ Cとシルク印刷されたパッド28か所に、チップコンデンサを�
 点灯していないLEDかその1つ前のLEDを外して新しいLEDに付け替える必要があります。
 
 <br>
-<br><br>
+<br>
+<br>
 
 ### TIPS:  SK6812MINI-Eの取り外し
 
