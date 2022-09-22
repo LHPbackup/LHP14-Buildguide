@@ -73,7 +73,7 @@ LHP14fはQMK firmwareという、キーボード用のオープンソースフ�
 <br>
 <br>
 
-・PCにLHP14をつなぎ、リセットボタンを押すと（私のType-C ProMicroでは2度押し）ファームウェアが書き込まれます。
+・PCにLHP14をつなぎ、リセットボタンを押すと（ProMicroによっては2度押し）ファームウェアが書き込まれます。
 ![](./images/LHP14_f/reset_sw.jpg)
 
 <br>
