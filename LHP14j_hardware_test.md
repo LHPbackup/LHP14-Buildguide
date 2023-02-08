@@ -139,7 +139,7 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 
 lhp14j(_rp2040)フォルダ直下にあるconfig.hファイルをメモ帳などのテキストエディタで開き、必要に応じて書き換えます。  
 
-【SparkFun・Adafruit2040】
+【SparkFun・Adafruit2040】  
 ・SparkFun RP2040をご使用の場合：13行目を有効化して、14行目  
 `#define MATRIX_COL_PINS { GP4, GP27, GP26, GP18, GP20, GP19, GP10, GP5, GP1 } `  
 をコメントアウト（先頭に//をつける）    
