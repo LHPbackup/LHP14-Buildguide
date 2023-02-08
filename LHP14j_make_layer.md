@@ -9,7 +9,7 @@
 
 ## ・keymap.cの編集
 
-メモ帳、秀丸エディタなどのテキストエディターでlhp14fフォルダーのkeymaps/mymap内のkeymap.cを開きます。
+メモ帳、秀丸エディタなどのテキストエディターでlhp14jフォルダーのkeymaps/mymap内のkeymap.cを開きます。
 <br>
 <br>
 
