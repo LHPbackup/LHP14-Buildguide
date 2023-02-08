@@ -23,7 +23,7 @@
 
 ・Qwwicコネクタ・USB-Cコネクタとの干渉を避ける、boot,resetボタンを裏面から押せるように基板の外形を変更。RP2040ProMicroでも高さ2.0mm～3.5mmのコンスルーが使用可能です。
 
-・RP2040使用時には、Breaking Change 2023 Feb 26以降の新しいQMKをお使いください。(古いバージョンのQMKではビルドできません。)
+・RP2040使用時には、＃[19453](https://github.com/qmk/qmk_firmware/pull/19453)、＃[19652](https://github.com/qmk/qmk_firmware/pull/19652)のパッチを当てるか、Breaking Change 2023 Feb 26以降の新しいQMKをお使いください。(古いバージョンのQMKではビルドできません。)
 
 [**前バージョンのビルドガイドはこちら**](./LHP14f_buildguide.md/)
 
