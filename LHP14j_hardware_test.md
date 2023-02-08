@@ -140,4 +140,4 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 <br>
 <br>
 
-[ ＞＞キーマップを作る](./LHP14j_make_layer.md/) 
+[ ＞＞キーマップを作る](./LHP14f_make_layer.md/) 
