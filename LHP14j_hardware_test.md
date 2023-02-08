@@ -37,7 +37,17 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 
 ・cloning into...　と出てファイルのアップデートが始まりますが、終わるまで待ちます。
 
-・QMK is ready to goと出て、＄の横にカーソルが出てきたらQMK MSYSセットアップ完了です！
+・QMK is ready to goと出て、＄の横にカーソルが出てきたらQMK MSYSセットアップ完了です。
+<br>
+<br>
+<br>
+
+# RP2040使用時の注意点
+
+## 現在最新のQMKではRP2040のアナログ関連ファイルがアクティベートされていないため、ビルドできません。
+
+## QMKのメジャーアップデート（Breaking Change 2023 Feb 26）までお待ち頂くか、＃[19453](https://github.com/qmk/qmk_firmware/pull/19453)、＃[19652](https://github.com/qmk/qmk_firmware/pull/19652)のパッチを当てることでビルド可能になります。
+
 <br>
 <br>
 <br>
@@ -140,4 +150,4 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 <br>
 <br>
 
-[ ＞＞キーマップを作る](./LHP14f_make_layer.md/) 
+[ ＞＞キーマップを作る](./LHP14j_make_layer.md/) 
