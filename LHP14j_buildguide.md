@@ -17,7 +17,7 @@
 
 ## 前バージョンからの変更点
 
-・従来のProMicro(MCU:ATmega32U4）に加え、RP2040搭載のProMicro（[SparkFun Pro Micro RP2040]([SparkFun Pro Micro - RP2040 - DEV-18288 - SparkFun Electronics](https://www.sparkfun.com/products/18288))、[Adafruit KB2040]([Adafruit KB2040 - RP2040 Kee Boar Driver : ID 5302 : $8.95 : Adafruit Industries, Unique & fun DIY electronics and kits](https://www.adafruit.com/product/5302))）が使用可能になりました。
+・従来のProMicro(MCU:ATmega32U4）に加え、RP2040搭載のProMicro（[SparkFun Pro Micro RP2040](https://www.sparkfun.com/products/18288)、[Adafruit KB2040](https://www.adafruit.com/product/5302)）が使用可能になりました。
 
 ・回路的には7番ピン（D4）と19番ピン（F5）を入れ替えております。
 
