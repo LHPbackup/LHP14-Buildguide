@@ -46,7 +46,7 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 
 ## 現在最新のQMKではRP2040のアナログ関連ファイルがアクティベートされていないため、ビルドできません。
 
-## QMKのメジャーアップデート（Breaking Change 2023 Feb 26）までお待ち頂くか、＃[19453](https://github.com/qmk/qmk_firmware/pull/19453)、＃[19652](https://github.com/qmk/qmk_firmware/pull/19652)のパッチを当てることでビルド可能になります。
+## QMKのメジャーアップデート（Breaking Change 2023 Feb 26）までお待ち頂くか、＃[19453](https://github.com/qmk/qmk_firmware/pull/19453)、＃[19652](https://github.com/qmk/qmk_firmware/pull/19652)のパッチを当てて下さい。
 
 <br>
 <br>
