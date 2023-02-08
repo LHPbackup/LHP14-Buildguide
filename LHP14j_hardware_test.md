@@ -135,9 +135,20 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 
 ### 5．キーマップ作成準備
 
-製作したLHP14の、RGBLEDの有無やLEDの種類に応じて、ファームウエアのconfig.hファイルを書き換えます。
+製作したLHP14のProMicroの種類、RGBLEDの有無やLEDの種類に応じて、ファームウエアのconfig.hファイルを書き換えます。
 
-・lhp14j(_rp2040)フォルダ直下にあるconfig.hファイルをメモ帳などのテキストエディタで開き、#define RGBLED_NUM 28の記述を編集します。  
+lhp14j(_rp2040)フォルダ直下にあるconfig.hファイルをメモ帳などのテキストエディタで開き、必要に応じて書き換えます。  
+
+【SparkFun・Adafruit2040】
+・SparkFun RP2040をご使用の場合：13行目を有効化して、14行目  
+`#define MATRIX_COL_PINS { GP4, GP27, GP26, GP18, GP20, GP19, GP10, GP5, GP1 } `  
+をコメントアウト（先頭に//をつける）    
+
+・Adafruit KB2040をご使用の場合：14行目を有効化して、13行目  
+`#define MATRIX_COL_PINS { GP4, GP27, GP26, GP22, GP20, GP23, GP21, GP5, GP1 }`  
+をコメントアウト（先頭に//をつける）
+
+【LEDの有無・種類】  
 
 　　　テープLED：`#define RGBLED_NUM 6`に変更
 
