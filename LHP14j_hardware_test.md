@@ -97,7 +97,9 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 
 ・PCにLHP14をつなぎ、LHP14のリセットスイッチをダブルクリックするとウインドウが開きます。  
 
-・lhp14j_rp2040フォルダ内のlhp14j_rp2040_test_sparkfun.uf2(Adafruit KB2040をお使いの際はlhp14j_rp2040_test_adafruit.uf2)を開いたウィンドウにドラッグ＆ドロップします
+・lhp14j_rp2040フォルダ内のlhp14j_rp2040_test_sparkfun.uf2(Adafruit KB2040をお使いの際はlhp14j_rp2040_test_adafruit.uf2)を開いたウィンドウにドラッグ＆ドロップします。  
+
+・RP2040では拡張子がuf2のファイルをファームウエアとして使用します。QMKでRP2040のファームをビルドするとhexファイル以外にuf2ファイルも生成されますのでこちらをお使いください。  
 
 <br>
 <br>
