@@ -65,14 +65,14 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 
 ・Auto-Flashをチェックします。
 
-![](./images/LHP14_f/QMK_toolbox1.png)
+![](./images/LHP14_j/QMK_toolbox_01.png)
 
 <br>
 <br>
 
 ・lhp14jフォルダ内のlhp14j_test.hexをQMK Toolboxにドラッグ＆ドロップします。
 
-<br>![](./images/LHP14_f/QMK_toolbox02.png)
+<br>![](./images/LHP14_j/QMK_toolbox_02.png)
 <br>
 <br>
 
@@ -107,16 +107,15 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 
 <br>
 
-・windowsコントロールパネル→ハードウェアとサウンド→デバイスとプリンタ→LHP14jを右クリックでゲームコントローラーの設定
-![](./images/LHP14_f/controller1.png)
-<br>
+・windowsコントロールパネル→ハードウェアとサウンド→デバイスとプリンタ→LHP14j(_RP2040)を右クリックでゲームコントローラーの設定
+![](./images/LHP14_j/controller1.png)<br>
 <br>
 プロパティでジョイスティックのテスト。    
 
 設定タブ→調整でデバイス調整ウィザードに入り、LHP14をPCに設定します。
 
 テストタブでジョイスティックを動かしカーソルが動く、ジョイスティック押しこみでボタン1が反応すればOKです。
-![](./images/LHP14_f/controller2.png)
+![](./images/LHP14_j/controller2.png)
 <br>
 <br>
 <br>
@@ -125,7 +124,7 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 
 製作したLHP14の、RGBLEDの有無やLEDの種類に応じて、ファームウエアのconfig.hファイルを書き換えます。
 
-・lhp14fフォルダ直下にあるconfig.hファイルをメモ帳などのテキストエディタで開き、47行目の#define RGBLED_NUM 28の記述を編集します。  
+・lhp14j(_rp2040)フォルダ直下にあるconfig.hファイルをメモ帳などのテキストエディタで開き、#define RGBLED_NUM 28の記述を編集します。  
 
 　　　テープLED：`#define RGBLED_NUM 6`に変更
 
@@ -140,4 +139,4 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 <br>
 <br>
 
-[ ＞＞キーマップを作る](./LHP14f_make_layer.md/) 
+[ ＞＞キーマップを作る](./LHP14j_make_layer.md/) 
