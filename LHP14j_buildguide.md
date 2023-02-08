@@ -269,7 +269,8 @@ AdafruitKB2040使用時は外側2本のピンは使用しません。
 
 コンスルーにProMicroを差し込みます。ProMicroは部品が付いていない方が表になるようセットします。 
 新しいType-C版ProMicroはコンスル―に対応しており、ハンダ付け不要です。
-従来のProMicro使用時など穴が緩い時はProMicroとコンスル―をハンダ付けして下さい。    
+従来のProMicro使用時など穴が緩い時はProMicroとコンスル―をハンダ付けして下さい。  
+
 SparkFunRP2040はコンスルーOK、AdafruitKB2040は穴が緩いのでハンダ付け推奨です。
 
 <br>
