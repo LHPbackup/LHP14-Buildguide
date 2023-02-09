@@ -54,7 +54,7 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 ・[LHP14ファームウェア置き場](https://github.com/LHPbackup/LHP14-firmware)からLHP14Liteのファームウェアをダウンロードします。  
 　Codeと書いた緑のボタンを押し、Zipファイルをダウンロード、解凍します。
 
-・C:\Users\ユーザー名\qmk_firmware\keyboards\に、LHP14Liteフォルダをフォルダごとコピーしてください。
+・C:\Users\ユーザー名\qmk_firmware\keyboards\に、lhp14liteフォルダをフォルダごとコピーしてください。
 
 ・QMK Toolboxを起動します。
 
@@ -65,7 +65,7 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 <br>
 <br>
 
-・LHP14Liteフォルダ内のLHP14Lite_Test.hexをQMK Toolboxにドラッグ＆ドロップします。
+・lhp1414liteフォルダ内のlhp14lite_test.hexをQMK Toolboxにドラッグ＆ドロップします。
 
 ![](./images/QMK_toolbox2_lite.png)
 
