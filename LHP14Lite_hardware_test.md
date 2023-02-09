@@ -90,7 +90,7 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 
 ![](./images/LED_TEST_lite.jpg)
 
-・各キーの詳しい割り当ては\LHP14Lite\keymaps\Test\のkeymap.cを参照してください。
+・各キーの詳しい割り当ては\lhp14lite\keymaps\test\のkeymap.cを参照してください。
 
 <br>
 <br>
