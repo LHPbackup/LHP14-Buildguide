@@ -14,7 +14,7 @@ QMKの詳しい使い方は[公式ガイド](https://docs.qmk.fm/#/ja/)などを
 
 テープLEDを使った方は下記手順が必要になります。
 
-・LHP14Liteフォルダ内のconfig.hファイルをメモ帳などのテキストエディタで開きます。
+・lhp14liteフォルダ内のconfig.hファイルをメモ帳などのテキストエディタで開きます。
 
 　　　テープLEDをお使いの方：#define RGBLED_NUM 20を#define RGBLED_NUM 5に変更(rev1.0)  
 　　　　　　　　　　　　　#define RGBLED_NUM 6に変更(rev1.0c)  
@@ -23,7 +23,7 @@ QMKの詳しい使い方は[公式ガイド](https://docs.qmk.fm/#/ja/)などを
 
 ### ２．レイヤー（キーマップ）の作成
 
-・LHP14Lite\keymaps\MyMap内にあるkeymap.cをメモ帳などのテキストエディタで開きます。
+・lhp14lite\keymaps\mymap内にあるkeymap.cをメモ帳などのテキストエディタで開きます。
 
 ・FF14内の15ジョブとRGBテストの合計16レイヤーの定義ファイルが入っております。~~（QMKで同時に持てるレイヤー数は16枚までの制限があり、私が普段使っていないジョブはコメントアウトしてあります。）~~
 lhp14lite_latest_qmkフォルダーに入っているファームで32レイヤーまで対応しました。最新版QMK(ver 0.18.5にて動作確認)で使用可能です。
@@ -34,7 +34,7 @@ lhp14lite_latest_qmkフォルダーに入っているファームで32レイヤ�
 
 ・キーコードは[QMK公式ページキーコード表](https://docs.qmk.fm/#/keycodes)などを参考にしてください。
 
-・LHP14Lite\keymaps\defaultには私が普段使っているキーコードがサンプルとして入っております。（ちょっと恥ずかしい…） 
+・lhp14lite\keymaps\defaultには私が普段使っているキーコードがサンプルとして入っております。（ちょっと恥ずかしい…） 
 
 ・とても難しく感じると思います。QMKで検索して、どうかご自身に最適なキーマップを作ってください！！
 
@@ -46,9 +46,9 @@ lhp14lite_latest_qmkフォルダーに入っているファームで32レイヤ�
 
 ・＄が出たら、cd qmk_firmwareと打ち込んでエンターを押します。
 
-・make LHP14Lite:MyMapと打ち込んでエンターを押すとコンパイルが始まります。
+・make lhp14lite:mymapと打ち込んでエンターを押すとコンパイルが始まります。
 
-・コードにエラーがなければ、C:/Users/ユーザー名/qmk_firmware/.build/にLHP14Lite_MyMap.hexというファイルが出来ていると思います。
+・コードにエラーがなければ、C:/Users/ユーザー名/qmk_firmware/.build/にlhp14lite_mymap.hexというファイルが出来ていると思います。
 
 ・QMK Toolboxを起動し、hexファイルをドラッグ＆ドロップします。
 
