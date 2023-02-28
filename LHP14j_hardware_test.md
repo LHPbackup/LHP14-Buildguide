@@ -1,7 +1,7 @@
 # 動作テスト
 
 LHP14jはQMK firmwareという、キーボード用のオープンソースファームウェアで動作します。  
-当方の現環境であるwindows11、QMK MSYS 1.7.2(QMK ver 0.19.10)、QMK Toolbox(ver 0.2.2) を使って説明します。
+当方の現環境であるwindows11、QMK MSYS 1.7.2(QMK ver 0.20.0)、QMK Toolbox(ver 0.2.2) を使って説明します。
 <br>
 <br>
 <br>
@@ -44,9 +44,7 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 
 # RP2040使用時の注意点
 
-## 現在最新のQMKではRP2040のアナログ関連ファイルがアクティベートされていないため、ビルドできません。
-
-## QMKのメジャーアップデート（Breaking Change 2023 Feb 26）までお待ち頂くか、＃[19453](https://github.com/qmk/qmk_firmware/pull/19453)、＃[19652](https://github.com/qmk/qmk_firmware/pull/19652)のパッチを当てて下さい。
+## ## QMK Breaking Change 2023 Feb 26 以降のバージョンをお使いください。
 
 <br>
 <br>
@@ -99,7 +97,7 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 
 ・lhp14j_rp2040フォルダ内のlhp14j_rp2040_test_sparkfun.uf2(Adafruit KB2040をお使いの際はlhp14j_rp2040_test_adafruit.uf2)を開いたウィンドウにドラッグ＆ドロップします。  
 
-・RP2040では拡張子がuf2のファイルをファームウエアとして使用します。QMKでRP2040のファームをビルドするとhexファイル以外にuf2ファイルも生成されますのでこちらをお使いください。  
+・RP2040では拡張子がuf2のファイルをファームウエアとして使用します。QMKでRP2040のファームをビルドするとuf2ファイルが生成されます。  
 
 <br>
 <br>
