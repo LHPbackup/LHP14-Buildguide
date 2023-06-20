@@ -10,23 +10,21 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 
 ・[公式サイト](https://msys.qmk.fm/)からLatest versionのQMK_MSYS.exeをダウンロードします。
 
-![](./images/alert1.png)
-
-![](./images/alert2.png)
-
-![](./images/alert3.png)
-
+![](./images/LHP14_f/alert01.png)
+<br>
+![](./images/LHP14_f/alert02.png)
+<br>
+![](./images/LHP14_f/alert03.png)
+<br>
+<br>
 ダウンロード時、警告のメッセージが出ますが、赤丸部分をクリックしてダウンロードします。
 <br>
 <br>
 <br>
 ・ダウンロードしたQMK_MSYS.exeを実行します。
 
-![](./images/alert4.png)
+![](./images/LHP14_f/alert04.png)
 
-![](./images/alert5.png)
-
-警告が出ますが、インストールを進めていきます。
 <br>
 <br>
 <br>
@@ -38,10 +36,11 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 
 ・cloning into...　と出てファイルのアップデートが始まりますが、終わるまで待ちます。
 
-・QMK is ready to goと出て、＄の横にカーソルが出てきたらQMK MSYSセットアップ完了です！
+・QMK is ready to goと出て、＄の横にカーソルが出てきたらQMK MSYSセットアップ完了です。
 <br>
 <br>
 <br>
+
 
 ### ２．QMK Toolboxのインストール（RP2040では必要ありません）
 
