@@ -314,8 +314,34 @@ M1.4x5mmねじとナットでジョイスティックを固定します。(2か�
 
 ![](./images/Promicro.jpg)
 
-コンスル―付きのProMicroにはピンが別に付いている場合が多いですが、今回はコンスルーを使用します。
-コンスルーとは基板とProMicroを脱着可能にするスプリングピンです。（ProMicroはUSB端子が取れたりとか意外と壊れることが多いのです；；）    
+ProMicroはピンが同梱している場合も多いですが、本キットはコンスルー使用を推奨します。
+コンスルーとは基板とProMicroを脱着可能にするスプリングピンです。
+
+ProMicroは初期不良やUSB端子がモゲたり壊れることがあり、ProMicro交換時に作業がやりやすくなるようコンスル―を使用します。    
+<br>
+<br>
+<br>
+
+![](./images/LHP14_f/promicro1.jpg)
+![](./images/LHP14_f/promicro2.jpg)
+
+ATmega32U4搭載のProMicro。  
+USB-Type-Cコネクタ付きがおすすめです。
+
+<br>
+<br>
+<br>
+
+![](./images/LHP14_j/ProMicro_RP2040s_1.png)
+
+LHP14Lite rev1.0d対応のRP2040搭載のProMicro。  
+上段が13ピン×2列のAdafruitKB2040、下段が12ピン×2列のSparkFunRP2040です。  
+AdafruitKB2040使用時は外側2本のピンは使用しません。
+<br>
+<br>
+<br>
+
+![](./images/LHP14_f/promicro3.jpg)   
 <br>
 <br>
 <br>
