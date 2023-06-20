@@ -212,7 +212,7 @@ lhp14lite_rp2040dフォルダにあるinfo.jsonファイルをメモ帳などの
 【LEDの有無・種類】  
 config.hファイルをメモ帳などで開き、7行目を編集します。
 
-　　　テープLED：`#define RGBLED_NUM 5`に変更
+　　　テープLED：`#define RGBLED_NUM 6`に変更
 
 　　　SK6812MINI-E or RGBLEDなし：`#define RGBLED_NUM 20`（変更なし）
 
