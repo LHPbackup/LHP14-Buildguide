@@ -9,7 +9,8 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 ### １．QMK-MSYSのセットアップ
 
 ・[公式サイト](https://msys.qmk.fm/)からLatest versionのQMK_MSYS.exeをダウンロードします。
-
+<br>
+<br>
 ![](./images/LHP14_f/alert01.png)
 <br>
 ![](./images/LHP14_f/alert02.png)
