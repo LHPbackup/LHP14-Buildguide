@@ -65,7 +65,7 @@
 
 ## キット以外に必要な部品
 
-・Pro Micro　1個 
+・Pro Micro(従来のATmega32U4搭載ProMicro、またはSparkFun Pro Micro RP2040、Adafruit KB2040)　1個 
 
 ・コンスルー（12ピン高さ2.5mm推奨）　2個
 
