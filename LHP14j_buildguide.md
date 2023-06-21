@@ -73,9 +73,9 @@
 
 ・Pro Micro(従来のATmega32U4搭載ProMicro、またはSparkFun Pro Micro RP2040、Adafruit KB2040)  
 
-・コンスル―　2個（12ピン、高さ2.0～3.5mmまで使用可能）
+・コンスル―　2個（12ピン高さ2.5mm推奨）
 
-・OLEDモジュール （ピンソケット付き）
+・OLEDモジュール・ピンソケット付き（ピンソケット・ヘッダ型番:廣杉計器FSS-41035-04,PSS-410153-04）　1個
 
 ・Cherry MX互換スイッチ　26個
 
