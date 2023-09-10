@@ -133,24 +133,27 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 
 ### 5．キーマップ作成準備
 
-製作したLHP14のProMicroの種類、RGBLEDの有無やLEDの種類に応じて、ファームウエアのconfig.hファイルを書き換えます。
+製作したLHP14のProMicroの種類、RGBLEDの有無やLEDの種類に応じて、ファームウエアのinfo.jsonファイルを書き換えます。
 
-lhp14j(_rp2040)フォルダ直下にあるconfig.hファイルをメモ帳などのテキストエディタで開き、必要に応じて書き換えます。  
+lhp14j(_rp2040)フォルダ直下にあるinfo.jsonファイルをメモ帳などのテキストエディタで開き、必要に応じて書き換えます。  
 
 【SparkFun・Adafruit2040】  
-・SparkFun RP2040をご使用の場合：13行目を有効化して、14行目  
-`#define MATRIX_COL_PINS { GP4, GP27, GP26, GP18, GP20, GP19, GP10, GP5, GP1 } `  
+・SparkFun RP2040をご使用の場合：16行目を有効化して、17行目  
+`"cols": ["GP4", "GP27", "GP26", "GP18", "GP20", "GP19", "GP10", "GP5", "GP1"], `  
 をコメントアウト（先頭に//をつける）    
 
-・Adafruit KB2040をご使用の場合：14行目を有効化して、13行目  
-`#define MATRIX_COL_PINS { GP4, GP27, GP26, GP22, GP20, GP23, GP21, GP5, GP1 }`  
+・Adafruit KB2040をご使用の場合：17行目を有効化して、16行目  
+`"cols": ["GP4", "GP27", "GP26", "GP22", "GP20", "GP23", "GP21", "GP5", "GP1"],`  
 をコメントアウト（先頭に//をつける）
 
 【LEDの有無・種類】  
 
-　　　テープLED：`#define RGBLED_NUM 6`に変更
+　　　テープLED：`"led_count": 6,`に変更
 
-　　　SK6812MINI-E or RGBLEDなし：`#define RGBLED_NUM 28`（変更なし）
+　　　SK6812MINI-E or RGBLEDなし：`"led_count": 28,`（変更なし）
+
+　　　※`"led_count": 28,`以外の場合は次の行の`"led_map": [6, 5, 4, 3, 2, 1, 0, 7, 8, 9, 10, 11, 12, 13, 20, 19, 18, 17, 16, 15, 14, 21, 22, 23, 24, 25, 26, 27]`は削除するか、コメントアウトしてください。
+　    
 
 <br>
 <br>
