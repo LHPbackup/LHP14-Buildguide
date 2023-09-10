@@ -42,7 +42,6 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 <br>
 <br>
 
-
 ### ２．QMK Toolboxのインストール（RP2040では必要ありません）
 
 ・[公式サイト](https://github.com/qmk/qmk_toolbox/releases)からqmk_toolbox_install.exeをダウンロードし実行します。  
@@ -105,7 +104,6 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 ・メモ帳などのテキストエディタを開いてLHP14Liteの各キーを押し、対応した文字が出てくれば正常。
 
 ・レイヤースイッチを押し、OLEDのLayer表示をRGB LED TESTに切り替えてください。リセット（2列目2行目）でRGBLEDをリセットして全て赤に変わります。RGBLEDアニメーション変更（1列目2行目）を押すと発光パターンが切り替わっていきます。
-
 
 ・各キーの詳しい割り当ては\lhp14lite_d\keymaps\test\のkeymap.cを参照してください。
 
@@ -197,7 +195,7 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 
 ### 6．キーマップ作成準備
 
-製作したLHP14LiteのProMicroの種類、RGBLEDの有無やLEDの種類に応じて、ファームウエアのinfo.json、config.hファイルを書き換えます。
+製作したLHP14LiteのProMicroの種類、RGBLEDの有無やLEDの種類に応じて、ファームウエアのinfo.jsonファイルを書き換えます。
 
 lhp14lite_rp2040dフォルダにあるinfo.jsonファイルをメモ帳などのテキストエディタで開き、必要に応じて書き換えます。  
 
@@ -211,11 +209,11 @@ lhp14lite_rp2040dフォルダにあるinfo.jsonファイルをメモ帳などの
 をコメントアウト（//をつける）
 
 【LEDの有無・種類】  
-config.hファイルをメモ帳などで開き、7行目を編集します。
+　　　テープLED：`"led_count": 6,`に変更
 
-　　　テープLED：`#define RGBLED_NUM 6`に変更
+　　　SK6812MINI-E or RGBLEDなし：`"led_count": 20,`（変更なし）
 
-　　　SK6812MINI-E or RGBLEDなし：`#define RGBLED_NUM 20`（変更なし）
+　　　※`"led_count": 20,`以外の場合は次の行の`"led_map": [0, 1, 2, 3, 4, 9, 8, 7, 6, 5, 10, 11, 12, 13, 14, 19, 18, 17, 16, 15]`は削除するか、コメントアウトしてください。
 
 <br>
 <br>
