@@ -135,9 +135,9 @@ LHP14jはQMK firmwareという、キーボード用のオープンソースフ�
 
 ### 5．キーマップ作成準備
 
-製作したLHP14のProMicroの種類、RGBLEDの有無やLEDの種類に応じて、ファームウエアのinfo.jsonファイルを書き換えます。
+製作したLHP14のProMicroの種類、RGBLEDの有無やLEDの種類に応じて、ファームウエアのkeyboard.jsonファイルを書き換えます。
 
-lhp14j(_rp2040)フォルダ直下にあるinfo.jsonファイルをメモ帳などのテキストエディタで開き、必要に応じて書き換えます。  
+lhp14j(_rp2040)フォルダ直下にあるkeyboard.jsonファイルをメモ帳などのテキストエディタで開き、必要に応じて書き換えます。  
 
 【SparkFun・Adafruit2040】  
 ・SparkFun RP2040をご使用の場合：16行目を有効化して、17行目  
