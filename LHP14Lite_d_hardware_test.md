@@ -195,9 +195,9 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 
 ### 6．キーマップ作成準備
 
-製作したLHP14LiteのProMicroの種類、RGBLEDの有無やLEDの種類に応じて、ファームウエアのinfo.jsonファイルを書き換えます。
+製作したLHP14LiteのProMicroの種類、RGBLEDの有無やLEDの種類に応じて、ファームウエアのkeyboard.jsonファイルを書き換えます。
 
-lhp14lite_rp2040dフォルダにあるinfo.jsonファイルをメモ帳などのテキストエディタで開き、必要に応じて書き換えます。  
+lhp14lite_rp2040dフォルダにあるkeyboard.jsonファイルをメモ帳などのテキストエディタで開き、必要に応じて書き換えます。  
 
 【SparkFun・Adafruit2040】  
 ・SparkFun RP2040をご使用の場合：16行目を有効化して、17行目  
