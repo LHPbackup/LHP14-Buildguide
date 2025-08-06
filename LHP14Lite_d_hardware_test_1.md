@@ -156,17 +156,13 @@ keymaps/mymapフォルダにあるkeymap.cファイルをテキストエディ�
 QMK MSYSを起動し、  
 cd qmk_firmware⏎  
 make lhp14lite_rp2040d:mymap⏎  
-
 (ATmega32U4のProMicro使用の場合は、make lhp14lite_d:mymap⏎)  
-
 とコマンドを入力しmymapファームをコンパイルする。
 
 <br>
 
 C:\Users\ユーザー名\qmk_firmware\,build\にlhp14lite_rp2040d_mymap.uf2  
-
 (ATmega32U4の場合はlhp14lite_d_mymap.hex)  
-
 ファイルが生成されているので、これをLHP14Liteに書き込みます。  
 
 <br>
