@@ -82,6 +82,7 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 
 <br>
 <br>
+
 **RP2040をお使いの場合**
 
 ・C:\Users\ユーザー名\qmk_firmware\keyboards\に、lhp14lite_rp2040dフォルダをフォルダごとコピーしてください。
@@ -113,9 +114,14 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 **・2025/8月更新のテストファームから、ADC(アナログ-デジタルコンバータ)の数値を計測し、これをジョイスティックの可動範囲に充てる方式に変更しました。**  
 **性能のばらつきが大きいジョイコンスティックでも使用可能になるかもしれません。(special thanks まるしぃ & HellSingCoder)**  
 
-**・OLEDにX:〇〇〇  Y:〇〇〇の表示が出ますので、ジョイスティックを左右上下に動かしてX、Yそれぞれの最小値、中間値、最大値をチェックしておきます。**
+**・OLEDにX:〇〇〇  Y:〇〇〇の表示が出ますので、ジョイスティックを左右上下に動かしてX、Yそれぞれの最小値、中央値、最大値をチェックしておきます。**
 
-**・ATmega32U4用のテストファームは何故か不安定で、LayerのOLED表示切替が遅延します。RP2040版は安定しており、推奨です。[秋月のRP2040 Kee Boar Driver](https://akizukidenshi.com/catalog/g/g117312/)は高速・高性能・低価格でおすすめ。**
+![](./images/LHP14Lite_D/ADC_XY.jpg)
+
+<br>
+<br>
+
+**注意：ATmega32U4用のテストファームは何故か不安定で、LayerのOLED表示切替が遅延します。RP2040版は安定しており、推奨です。[秋月のRP2040 Kee Boar Driver](https://akizukidenshi.com/catalog/g/g117312/)は高速・高性能・低価格でおすすめ。**
 
 <br>
 <br>
