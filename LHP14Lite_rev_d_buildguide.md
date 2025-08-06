@@ -23,9 +23,11 @@
 
 ・SK6812MINI-E装着時に必要なチップコンデンサをキット付属から外しました。  
 
-・2ndロットより基板製造メーカーを再変更。基板色がグロスブラックになりました。
+・2025/8月以降の3rdロットから基板製造メーカーを再々変更。基板色がマットブラックになりました。
 
-・基板製造コストが以前の倍になってしまったため、キット販売価格を少し上げました（ｺﾞﾒﾝﾅｻｲ）
+・製造コストは下がりましたが、質感も少し下がった気がするので、バーゲンプライスでご提供します。^^;
+
+・ファームウエアを変更しました。（ADCの数値を計測し、ジョイスティックのパラメータに充てる方式に変更。バラツキが大きいスティックでも使用可能）
 
 
 
@@ -74,7 +76,7 @@
 
 ## キット以外に必要な部品
 
-・Pro Micro(従来のATmega32U4搭載ProMicro、またはSparkFun Pro Micro RP2040、Adafruit KB2040)　1個 
+・Pro Micro(ATmega32U4搭載ProMicro、SparkFun Pro Micro RP2040、Adafruit KB2040。2040搭載のもの推奨)　1個 
 
 ・コンスルー（12ピン高さ2.5mm推奨）　2個
 
@@ -113,7 +115,7 @@ SK6812MINI-Eを使う方が難しいですが、より綺麗に発光します�
 
 ※これらは[**遊舎工房**](https://shop.yushakobo.jp/)や[**TALP KEYBOARD**](https://talpkeyboard.net/)、[**秋月電子**](https://akizukidenshi.com/catalog/g/gP-11384/)、amazonなどで購入可能です  
 
-※RP2040搭載のProMicroは多くの店舗で取扱いがあります。
+※RP2040搭載のProMicroは秋月電子や共立エレショップなどで取扱いがあります。
 [**秋月電子**](https://akizukidenshi.com/catalog/g/gM-17312/)のこちらの商品は安価・高性能、USB-Cなのでお勧めです。
 <br>
 <br>
@@ -466,4 +468,4 @@ ChocV1をお使いの場合は、V1専用のキーキャップをお使いくだ
 <br>
 <br>
 
-[ ＞＞動作テスト](./LHP14Lite_d_hardware_test.md/) 
+[ ＞＞動作テスト](./LHP14Lite_d_hardware_test_1.md/) 
