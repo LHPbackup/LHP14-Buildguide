@@ -115,7 +115,7 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 
 **・OLEDにX:〇〇〇  Y:〇〇〇の表示が出ますので、ジョイスティックを左右上下に動かしてX、Yそれぞれの最小値、中間値、最大値をチェックしておきます。**
 
-**・ATmega32U4用のテストファームは何故か不安定気味なので、出来ればRP2040のProMicroをお使い下さい。[秋月のRP2040 Kee Boar Driver](https://akizukidenshi.com/catalog/g/g117312/)は高速・高性能・低価格でおすすめ。**
+**・ATmega32U4用のテストファームは何故か不安定で、LayerのOLED表示切替が遅延します。RP2040版は安定しており、推奨です。[秋月のRP2040 Kee Boar Driver](https://akizukidenshi.com/catalog/g/g117312/)は高速・高性能・低価格でおすすめ。**
 
 <br>
 <br>
