@@ -88,7 +88,9 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 
 ・PCにLHP14Liteをつなぎ、リセットスイッチをゆっくり目にダブルクリックするとウインドウが開きます。  
 
-・lhp14lite_rp2040dフォルダ内のlhp14lite_rp2040d_test_sparkfun.uf2(Adafruit KB2040をお使いの際はlhp14lite_rp2040d_test_adafruit.uf2)を開いたウィンドウにドラッグ＆ドロップします。  
+・lhp14lite_rp2040dフォルダ内のlhp14lite_rp2040d_test_sparkfun.uf2  
+(Adafruit KB2040をお使いの際はlhp14lite_rp2040d_test_adafruit.uf2)  
+を開いたウィンドウにドラッグ＆ドロップします。  
 
 ・RP2040では拡張子がuf2のファイルをファームウエアとして使用します。QMKでRP2040のファームをビルドするとuf2ファイルが生成されます。 
 
