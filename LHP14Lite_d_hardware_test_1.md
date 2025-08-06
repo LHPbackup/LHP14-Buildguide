@@ -159,7 +159,7 @@ keymaps/mymapフォルダにあるkeymap.cファイルをテキストエディ�
 `#define min_y 〇〇〇`  
 `#define med_y 〇〇〇`  
 `#define max_y 〇〇〇`  
-をチェックした最小値、中間値、最大値に書き換えます。
+をチェックした最小値、中央値、最大値に書き換えます。
 
 <br>
 
