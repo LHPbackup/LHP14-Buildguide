@@ -110,9 +110,10 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 
 ・各キーの詳しい割り当ては\lhp14lite_d\keymaps\test\のkeymap.cを参照してください。
 
-**・2025/8月更新のテストファームからADC(Analog-to-Digital Converter)のジョイスティック数値を直接読み取り、OLEDに表示します。(special thanks marusii & HellSingCoder)**
+**・2025/8月更新のテストファームから、ADC(アナログ-デジタルコンバータ)の数値を計測し、これをジョイスティックの可動範囲に充てる方式に変更しました。**  
+**性能のばらつきが大きいジョイコンスティックでも使用可能になるかもしれません。(special thanks まるしぃ & HellSingCoder)**  
 
-**・OLEDにX:〇〇〇  Y:〇〇〇の表示が出ますので、ジョイスティックを動かしてX、Yそれぞれの最小値、中間値、最大値をチェックしておきます。**
+**・OLEDにX:〇〇〇  Y:〇〇〇の表示が出ますので、ジョイスティックを左右上下に動かしてX、Yそれぞれの最小値、中間値、最大値をチェックしておきます。**
 
 **・ATmega32U4用のテストファームは何故か不安定気味なので、出来ればRP2040のProMicroをお使い下さい。[秋月のRP2040 Kee Boar Driver](https://akizukidenshi.com/catalog/g/g117312/)は高速・高性能・低価格でおすすめ。**
 
