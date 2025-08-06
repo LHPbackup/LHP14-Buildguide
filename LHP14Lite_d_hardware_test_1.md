@@ -68,7 +68,8 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 <br>
 <br>
 
-・lhp14lite_dフォルダ内のlhp14lite_d_test.hexをQMK Toolboxにドラッグ＆ドロップします。
+・lhp14lite_dフォルダ内のlhp14lite_d_test.hexをQMK Toolboxにドラッグ＆ドロップします。  
+(ドラッグ＆ドロップできない場合はOpenボタンを押してlhp14lite_d_test.hexファイルを指定する)  
 
 ![](./images/QMK_toolbox2_lite.png)
 
