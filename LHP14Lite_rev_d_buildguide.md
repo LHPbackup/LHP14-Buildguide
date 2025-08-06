@@ -76,7 +76,7 @@
 
 ## キット以外に必要な部品
 
-・Pro Micro(ATmega32U4搭載ProMicro、SparkFun Pro Micro RP2040、Adafruit KB2040。2040搭載のもの推奨)　1個 
+・Pro Micro(ATmega32U4搭載ProMicro、SparkFun Pro Micro RP2040、Adafruit KB2040。[2040搭載のもの推奨](https://akizukidenshi.com/catalog/g/g117312/))　1個 
 
 ・コンスルー（12ピン高さ2.5mm推奨）　2個
 
