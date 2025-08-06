@@ -111,7 +111,7 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 
 **・OLEDにX:〇〇〇  Y:〇〇〇の表示が出ますので、ジョイスティックを動かしてX、Yそれぞれの最小値、中間値、最大値をチェックしておきます。**
 
-**・ATmega32U4用のテストファームは何故か不安定気味なので、出来ればRP2040のProMicroをお使い下さい。[秋月のRP2040 Kee Boar Driver]([RP2040 Kee Boar Driver: 開発ツール・ボード 秋月電子通商-電子部品・ネット通販](https://akizukidenshi.com/catalog/g/g117312/))は高速・高性能・低価格でおすすめ。**
+**・ATmega32U4用のテストファームは何故か不安定気味なので、出来ればRP2040のProMicroをお使い下さい。[秋月のRP2040 Kee Boar Driver](https://akizukidenshi.com/catalog/g/g117312/)は高速・高性能・低価格でおすすめ。**
 
 <br>
 <br>
@@ -141,33 +141,33 @@ lhp14lite_rp2040dフォルダにあるkeyboard.jsonファイルをメモ帳な�
 <br>
 <br>
 keymaps/mymapフォルダにあるkeymap.cファイルをテキストエディタで開き、先ほどチェックしたOLEDのX,Y数値に書き換えます。
-9行目以下の
-`#define min_x 〇〇〇`
-`#define med_x 〇〇〇`
+9行目以下の  
+`#define min_x 〇〇〇`  
+`#define med_x 〇〇〇`  
 `#define max_x 〇〇〇`  
 
-`#define min_y 〇〇〇`
-`#define med_y 〇〇〇`
-`#define max_y 〇〇〇`
+`#define min_y 〇〇〇`  
+`#define med_y 〇〇〇`  
+`#define max_y 〇〇〇`  
 をチェックした最小値、中間値、最大値に書き換えます。
 
 <br>
 
 QMK MSYSを起動し、  
-cd qmk_firmware⏎
-make lhp14lite_rp2040d:mymap⏎
+cd qmk_firmware⏎  
+make lhp14lite_rp2040d:mymap⏎  
 
-(ATmega32U4のProMicro使用の場合は、make lhp14lite_d:mymap⏎)
+(ATmega32U4のProMicro使用の場合は、make lhp14lite_d:mymap⏎)  
 
 とコマンドを入力しmymapファームをコンパイルする。
 
 <br>
 
-C:\Users\ユーザー名\qmk_firmware\,build\にlhp14lite_rp2040d_mymap.uf2
+C:\Users\ユーザー名\qmk_firmware\,build\にlhp14lite_rp2040d_mymap.uf2  
 
-(ATmega32U4の場合はlhp14lite_d_mymap.hex)
+(ATmega32U4の場合はlhp14lite_d_mymap.hex)  
 
-ファイルが生成されているので、これをLHP14Liteに書き込みます。
+ファイルが生成されているので、これをLHP14Liteに書き込みます。  
 
 <br>
 
