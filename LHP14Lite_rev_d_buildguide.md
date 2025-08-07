@@ -103,8 +103,8 @@ ChocV1スイッチをお使いの場合はV1専用のキーキャップが必要
 
 #### オプション
 
-・発光ダイオード　SK6812MINI-E　20個  
-・2012サイズ　チップ積層セラミックコンデンサ　0.1μＦ　20個
+・発光ダイオード　[SK6812MINI-E](https://akizukidenshi.com/catalog/g/g115478/)　20個  
+・2012サイズ　[チップ積層セラミックコンデンサ　0.1μＦ](https://akizukidenshi.com/catalog/g/g117576/)　20個
 
 もしくは
 
@@ -113,7 +113,7 @@ ChocV1スイッチをお使いの場合はV1専用のキーキャップが必要
 ※上記は同時使用はできません。製作時にSK6812MINI-Eを使うか、LEDテープで行くか決めてからパーツを集めてください。  
 SK6812MINI-Eを使う方が難しいですが、より綺麗に発光します。
 
-※これらは[**遊舎工房**](https://shop.yushakobo.jp/)や[**TALP KEYBOARD**](https://shop.talpkeyboard.com/)、[**秋月電子**](https://akizukidenshi.com/catalog/g/gP-11384/)、amazonなどで購入可能です  
+※これらは[**遊舎工房**](https://shop.yushakobo.jp/)や[**TALP KEYBOARD**](https://shop.talpkeyboard.com/)、[**秋月電子**](https://akizukidenshi.com/catalog/default.aspx/)、amazonなどで購入可能です  
 
 ※RP2040搭載のProMicroは秋月電子や共立エレショップなどで取扱いがあります。
 [**秋月電子**](https://akizukidenshi.com/catalog/g/gM-17312/)のこちらの商品は安価・高性能、USB-Cなのでお勧めです。
