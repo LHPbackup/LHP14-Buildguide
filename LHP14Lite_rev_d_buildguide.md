@@ -116,7 +116,7 @@ SK6812MINI-Eを使う方が難しいですが、より綺麗に発光します�
 ※これらは[**遊舎工房**](https://shop.yushakobo.jp/)や[**TALP KEYBOARD**](https://shop.talpkeyboard.com/)、[**秋月電子**](https://akizukidenshi.com/catalog/default.aspx/)、amazonなどで購入可能です  
 
 ※RP2040搭載のProMicroは秋月電子や共立エレショップなどで取扱いがあります。
-[**秋月電子**](https://akizukidenshi.com/catalog/g/gM-17312/)のこちらの商品は安価・高性能、USB-Cなのでお勧めです。
+[**秋月電子のこちらの商品**](https://akizukidenshi.com/catalog/g/gM-17312/)は安価・高性能、USB-Cなのでお勧めです。
 <br>
 <br>
 <br>
