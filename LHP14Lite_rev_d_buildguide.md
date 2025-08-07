@@ -78,11 +78,11 @@
 
 ・Pro Micro(ATmega32U4搭載ProMicro、SparkFun Pro Micro RP2040、Adafruit KB2040。[2040搭載のもの推奨](https://akizukidenshi.com/catalog/g/g117312/))　1個 
 
-・コンスルー（12ピン高さ2.5mm推奨）　2個
+・[コンスルー（12ピン高さ2.5mm推奨）](https://shop.yushakobo.jp/products/31?variant=37665714405537)　2個
 
-・OLEDモジュール・ピンソケット付き（ピンソケット・ヘッダ型番:廣杉計器FSS-41035-04,PSS-410153-04）　1個
+・[OLEDモジュール・ピンソケット付き](https://shop.yushakobo.jp/products/oled?_pos=2&_sid=f00cc8665&_ss=r)（ピンソケット・ヘッダ型番:廣杉計器FSS-41035-04,PSS-410153-04）　1個
 
-・Kailh Choc V2　もしくは　Choc V1スイッチ　20個
+・[Kailh Choc V2](https://shop.yushakobo.jp/products/kailh-choc-v2)　もしくは　Choc V1スイッチ　20個
 
 ・CherryMX対応のキーキャップ(Choc V2使用時)  
 　もしくは　Choc V1用のキーキャップ(Choc V1使用時)　20個
