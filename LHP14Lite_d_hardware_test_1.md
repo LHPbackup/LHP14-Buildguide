@@ -121,7 +121,9 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 <br>
 <br>
 
-**注意：ATmega32U4用のテストファームは何故か不安定で、LayerのOLED表示切替が遅延します。RP2040版は安定しており、推奨です。[秋月のRP2040 Kee Boar Driver](https://akizukidenshi.com/catalog/g/g117312/)は高速・高性能・低価格でおすすめ。**
+**注意：従来のProMicro（MPU=ATmega32U4）用のテストファームは何故か不安定で、LayerのOLED表示切替が遅延します。RP2040版は安定しており、推奨です。[秋月のRP2040 Kee Boar Driver](https://akizukidenshi.com/catalog/g/g117312/)は高速・高性能・低価格でおすすめ。**
+
+**ATmega32U4をお使いの際は、Layerボタンを1回押し、1行1列目のキー（一番左上のキー）を押してLEDを消灯すると、若干遅延が解消するようです。Testファーム以外の通常使用時では遅延せず問題なく使えると思います。**
 
 <br>
 <br>
