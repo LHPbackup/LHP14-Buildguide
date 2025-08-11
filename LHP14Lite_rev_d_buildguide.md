@@ -118,6 +118,8 @@ SK6812MINI-Eを使う方が難しいですが、より綺麗に発光します�
 
 ※RP2040搭載のProMicroは秋月電子や共立エレショップなどで取扱いがあります。
 [**秋月電子のこちらの商品**](https://akizukidenshi.com/catalog/g/gM-17312/)は安価・高性能、USB-Cなのでお勧めです。
+
+※アリエク等で見かけるTENSTAR ProMicro RP2040は不所持のため動作未確認です。データシートではピン配列Sparkfun互換。左右13pinなのでUSBコネクタ側の各1pinは不使用。
 <br>
 <br>
 <br>
