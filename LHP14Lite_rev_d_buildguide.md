@@ -79,10 +79,10 @@
 
 ・Pro Micro(ATmega32U4搭載ProMicro、SparkFun Pro Micro RP2040、Adafruit KB2040。2040搭載のもの推奨)　1個 
 
-    ※RP2040搭載のProMicroは秋月電子や共立エレショップなどで取扱いがあります。  
-    [**秋月電子のこちらの商品**](https://akizukidenshi.com/catalog/g/gM-17312/)は安価・高性能、USB-Cなのでお勧めです。
+　　※RP2040搭載のProMicroは秋月電子や共立エレショップなどで取扱いがあります。  
+　　[**秋月電子のこちらの商品**](https://akizukidenshi.com/catalog/g/gM-17312/)は安価・高性能、USB-Cなのでお勧めです。
 
-    ※アリエク等で見かけるTENSTAR ProMicro RP2040は不所持のため動作未確認です。データシートではピン配列Sparkfun互換。左右13pinなのでUSBコネクタ側の各1pinは不使用。
+　　※アリエク等で見かけるTENSTAR ProMicro RP2040は不所持のため動作未確認です。データシートではピン配列Sparkfun互換。左右13pinなのでUSBコネクタ側の各1pinは不使用。
 
 ・[コンスルー（12ピン高さ2.5mm推奨）](https://shop.yushakobo.jp/products/31?variant=37665714405537)　2個
 
