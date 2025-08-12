@@ -77,7 +77,7 @@
 
 ## キット以外に必要な部品
 
-・Pro Micro(ATmega32U4搭載ProMicro、SparkFun Pro Micro RP2040、Adafruit KB2040。2040搭載のもの推奨)　1個
+・Pro Micro(ATmega32U4搭載ProMicro、SparkFun Pro Micro RP2040、Adafruit KB2040。**2040搭載のもの推奨**)　1個
 
 　　※RP2040搭載のProMicroは秋月電子や共立エレショップなどで取扱いがあります。  
 　　[**秋月電子のこちらの商品**](https://akizukidenshi.com/catalog/g/gM-17312/)は安価・高性能、USB-Cなのでお勧めです。
