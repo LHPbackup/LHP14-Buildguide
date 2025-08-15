@@ -136,13 +136,13 @@ LHP14LiteはQMK firmwareという、キーボード用のオープンソース�
 
 ・ブレッドボード上にProMicro、OLED、Joystickの最小単位で回路を作り、可変抵抗を1つだけProMicroに繋ぎQMKファームで実験したところ、アナログpin1つだけ接続しているにも関わらず、別のアナログチャンネルも引きずられるように数値が可変してしまいます。（ADC入力が別チャンネルに干渉しているように見える）
 
-![](./images/joystick_test.jpg) 
+![](./images/LHP14Lite_D/joystick_test.jpg) 
 
 
 
 ・Arduino IDEにLHP14Liteを繋ぎIDEのスケッチで実験したが、ADCの干渉は見られず、安定して独立動作する。
 
-![](./images/arduino_ide_joysticktest.png)
+![](./images/LHP14Lite_D/arduino_ide_joysticktest.png)
 
 
 
